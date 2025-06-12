@@ -26,7 +26,9 @@ export default function RootLayout({
           </nav>
         </header>
 
-        {children}
+        <main>
+          {children}
+        </main>
 
         <footer>
           &copy; 2025 JzPharma. All rights reserved.
